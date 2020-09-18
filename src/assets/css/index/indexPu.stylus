@@ -1,0 +1,235 @@
+$commonWeight=Regular;
+$commonFamily=PingFangSC-Regular;
+$commonSize=0.26rem;
+$commonColor3=#333333;
+$commonColor6=#666666;
+
+.index-pu-Index 
+    .main_top
+        background-image url('../../../assets/img/images/index_pu_new.jpg')
+        background-repeat no-repeat
+        background-size 100% 100%
+        width 100%
+        height 7.89rem
+        padding-top 1.08rem
+        .dianZhui
+            width 0.5rem
+            height 0.5rem
+            position relative  
+            top 0.2rem
+            left 0.05rem
+            img 
+                width 100%
+                height 100%
+        .swiperPu
+            // padding-top 1.48rem  
+        .swiperPhoneX
+            padding-top 2.08rem
+        .swiperPhone8
+            // padding-top 1.48rem
+
+        .activeJieShao
+            margin-top 1.36rem
+            width 95%
+            height 2.47rem
+            margin-right auto
+            margin-left auto
+            .activeJieShao_inner
+                width 100%
+                height 100%
+                background-image url('../../../assets/img/images/indexJieShao.jpg')
+                background-repeat no-repeat
+                background-size 100%
+                border-radius 1.24rem   
+            .jieShao_main
+                    margin 0.33rem  0.75rem 0rem 0.87rem 
+                    span 
+                        color $commonColor3
+                        font-weight 510
+                        font-family $commonFamily
+                        font-size   $commonSize
+                        line-height 0.4rem
+    .main_bottom
+        background #dae0f2
+        margin-top -0.01rem
+        .shiMingTeacher
+            width 95%
+            margin-left auto 
+            margin-right auto
+            .shiMingTeacher_header
+                width 100%  
+                position relative
+                top -0.87rem
+                left 0rem
+                img     
+                    width 0.48rem
+                    height 0.4rem
+                    margin-right 0.1rem
+                span
+                    color $commonColor3
+                    font-weight 550
+                    font-family $commonFamily
+                    font-size 0.36rem
+            .shiMingTeacher_main
+                background-image url('../../../assets/img/images/teacherInfo.jpg')
+                background-repeat no-repeat
+                background-size 100% 100%
+                width 100%
+                min-height 3rem
+                border-radius 0.2rem
+                margin-top -0.48rem
+                padding-top 0.16rem
+                padding-bottom 0.39rem
+                .shiMingTeacher_main_info
+                    width 95%
+                    height 2.7rem
+                    margin 0 auto
+                    margin-top 0.2rem
+                    background #FFFFFF
+                    border-radius 0.1rem
+                    .teacher_left
+                        width 2.47rem
+                        height 2.7rem
+                        img[src=""],img:not([src])
+                            opacity 0 
+                        img[src]
+                            opacity 1 
+                            width 100%
+                            height 100%
+                            border-radius 0.1rem    
+                    .teacher_right
+                        margin-left 0.1rem
+                        padding 0.35rem 0.19rem 0 0
+                        width 3.9rem
+                        height 2.35rem
+                        .teacher_right_top
+                            span 
+                                font-weight 700
+                                font-family $commonFamily
+                                font-size 0.3rem
+                                color $commonColor3 
+                        .teacher_right_bottom
+                            margin-top 0.25rem
+                            word-break break-all
+                            text-overflow ellipsis
+                            display -webkit-box
+                            -webkit-box-orient vertical
+                            -webkit-line-clamp 4
+                            overflow hidden
+                            span
+                                font-family $commonFamily
+                                font-size $commonSize
+                                color $commonColor6
+                                line-height 0.35rem
+        .dakaKeTang
+            margin-top 0.5rem
+            width 95%
+            margin-left auto 
+            margin-right auto
+            position relative
+            .shiMingTeacher_header
+                width 100%  
+                img     
+                    width 0.48rem
+                    height 0.4rem
+                    margin-right 0.1rem
+                span
+                    color $commonColor3
+                    font-weight 550
+                    font-family $commonFamily
+                    font-size 0.36rem  
+            .keTangMain
+                background #FFFFFF
+                border-radius 0.2rem    
+                width 95%
+                min-height 3rem   
+                margin 0.38rem auto 0 
+                padding 0.35rem 0rem 0rem 0.16rem
+                .keTang_info
+                    .keTang_info_inner
+                        margin-right 0.16rem
+                        height 2rem
+                        width 3.22rem
+                        position relative
+                        .info_inner_empty
+                            position absolute
+                            height 1.4rem
+                            width 100%
+                        img[src=""],img:not([src])
+                            opacity 0 
+                        img[src] 
+                            opacity 1
+                            width 100%
+                            height 100% 
+                            border-radius 0.1rem  
+                        .inner_teacher
+                            position absolute
+                            width 100%
+                            height 0.6rem
+                            background rgba(0,0,0,.4)
+                            bottom 0rem
+                            left 0rem
+                            border-radius 0.1rem
+                            .teacher_icon
+                                width 0.37rem
+                                height 0.36rem
+                                margin-left 0.19rem
+                                img[src=""],img:not([src])
+                                    opacity 0 
+                                img[src]  
+                                    opacity 1
+                                    width 100%
+                                    height 100%
+                                    border-radius 50%
+                            .teacher_name
+                                margin-left 0.14rem
+                                span
+                                    color #FFFFFF
+                                    font-family $commonFamily
+                                    font-size $commonSize
+                    .teacher_zhi
+                        margin-top 0.26rem
+                        margin-bottom 0.4rem
+                        span    
+                            color $commonColor3
+                            font-weight 510
+                            font-family $commonFamily
+                            font-size 0.3rem 
+                .chaKanDuo
+                    border-top 0.01rem solid #ccccccf7
+                    height 1rem;
+                    width 100%
+                    .chaKanDuoInner
+                        span
+                            color #FF4C22
+                            font-size 0.26rem
+                            font-family PingFang-SC-Regular
+                        img
+                            width 0.09rem
+                            height 0.16rem
+                            margin-left 0.1rem
+                    
+        .active_guiZe
+            width 95%
+            margin 0.4rem auto 0rem
+            .title
+                span
+                    color #FF4C22
+                    font-size 0.28rem
+                    font-weight 500
+                    font-family $commonFamily
+            .main
+                margin-top 0.16rem
+                div
+                    color $commonColor3
+                    font-weight 510
+                    font-family $commonFamily
+                    font-size $commonSize
+                    line-height 0.4rem
+        .footer_img
+            margin-top 0.96rem
+            height 0.89rem
+            width 100%
+            img
+                width 100%
+                height 100%  
