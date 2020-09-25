@@ -128,4 +128,6 @@ export default {
                     height 100%
                     border-radius 0.2rem 
             /deep/.image:last-child{margin-bottom: 0rem}
+
+            
 </style>
