@@ -72,6 +72,7 @@ export default {
                 this.KeTangLength = this.keTangData.length;
                 this.laoShiLength = this.shiZhanMingData.length;
             })
+            // 
         },
 
     },
