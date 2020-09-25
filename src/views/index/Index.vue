@@ -77,6 +77,7 @@ export default {
     },
 
     beforeCreate() {
+        //
         if (this.refeshStatus) {
             if(this.$t.GScheck()){
                 this.$t.GSsdk({
