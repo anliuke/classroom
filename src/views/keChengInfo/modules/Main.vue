@@ -120,10 +120,12 @@ export default {
                 font-weight 330
                 font-family  PingFangSC-Medium 
                 line-height 0.4rem
-                /deep/.image
-                    min-height 2.4rem
-                    img
-                        width 100%
-                        height 100% 
-                        border-radius 0.2rem 
+            /deep/.image
+                min-height 2.4rem 
+                margin-bottom 0.1rem
+                img
+                    width 100%
+                    height 100%
+                    border-radius 0.2rem 
+            /deep/.image:last-child{margin-bottom: 0rem}
 </style>
